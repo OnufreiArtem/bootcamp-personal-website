@@ -1,0 +1,54 @@
+:root {
+    --bcg-color: #eeeeee;
+    --accent-color: #00adb5;
+    --light-color: #393e46;
+    --dark-color: #222831;
+
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--bcg-color);
+    
+}
+
+.title {
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.subtitle {
+
+}
+
+.top-container {
+    display: block;
+    position: relative;
+    padding-top: 100px;
+    background: linear-gradient(180deg, var(--accent-color), var(--bcg-color));
+}
+
+.cloud-1 {
+    position: absolute;
+    left: 150px;
+    top: 250px
+}
+
+.cloud-2 {
+    position: absolute;
+    right: 150px;
+    top: 200px;
+
+}
+
+.mountain {
+    display: block;
+    margin: 0 auto 100px;
+    max-width: 800px;
+}
+
